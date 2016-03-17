@@ -2,7 +2,7 @@
 This program can be run interactively or by reading a .txt file. To run interactively, simply type "$python simple_database.py" into the command line. To run .txt file, type "$python simple_database.py < testcase.txt" into the command line (where testcase.txt is your testcase).
 
 This code was tested on OSX and Python 3.4 and requires no dependencies.  
-SET, GET UNSET run in amortized O(1) time.  
+SET, GET, UNSET run in amortized O(1) time.  
 BEGIN, NUMEQUALTO run in O(N) time.  
 
 ##Screenshots from testcases:
