@@ -1,7 +1,9 @@
-import sys
+# Author: Art Grichine
+# Date: 16 MARCH 2016
+# Target: OSX running Python 3.4
 
-db = {}
-transactions = []
+db = {}			# working db
+transactions = []	# stored db. Enables ROLLBACK feature
 
 while True:
   # collect input
@@ -9,7 +11,7 @@ while True:
   cmd = command[0]
 
   if cmd == 'END':
-    sys.exit()
+    break
   
   if cmd == 'GET':
     name = command[1]
