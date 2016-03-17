@@ -1,6 +1,7 @@
 # Author: Art Grichine
 # Date: 16 MARCH 2016
 # Target: OSX running Python 3.4
+# https://www.thumbtack.com/challenges/simple-database
 
 db = {}			# working db
 transactions = []	# stored db. Enables ROLLBACK feature
